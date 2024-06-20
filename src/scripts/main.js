@@ -22,6 +22,6 @@ const contaAsHoras = setInterval(function() {
 
     if (distanciaAteOEvento < 0) {
         clearInterval(contaAsHoras);
-        document.getElementById('contador').innerHTML = '5d 23h 5m 55s';
+        document.getElementById('contador').innerHTML = 'Evento expirado';
     }
 }, 1000);
